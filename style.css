@@ -399,8 +399,8 @@ main {
     gap: 0px;
     color: var(--clr-white);
     max-width: 1200px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .servicios-index h2 {
@@ -469,7 +469,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     width: 80%; 
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
     max-width: 1200px;
  /* background-color: #20ba5a; */
