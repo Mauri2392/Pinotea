@@ -73,9 +73,10 @@
         margin-top: 20px;
     } 
 
+    /* 
     .servicios-section2 {
         padding-top: 20px;
-    }
+    } */
 
    /*  .social-icons a {
         gap: 50px;
@@ -95,7 +96,7 @@
     }
 
     .contact-section h2 {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .contenido-contacto-orden-index1,
