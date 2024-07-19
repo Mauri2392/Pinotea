@@ -340,8 +340,7 @@ main {
     font-weight: 100;
     line-height: 1; 
     font-weight: 500;
-    color: var(--clr-white);
-    
+    color: var(--clr-white); 
     /*  color: rgba(24, 23, 23, 0.849); */
 }
 
@@ -386,7 +385,6 @@ main {
     width: 100%;
     margin: 0 auto; /* centra en el medio la informacion */
     max-width: 1200px;
-    
 } 
 
 .servicios-container { 
@@ -431,6 +429,7 @@ main {
     color: var(--clr-white);
  /*  background-color: #4b33a8; */
    border-radius: 20px; 
+   
 }
 
 .contenido-servicios-orden-index1,
@@ -445,6 +444,13 @@ main {
     background-color: var(--clr-main-light); 
     border-radius: 20px;
   /*background-color: #785ce9; */
+    box-shadow: 0 3px 5px var(--clr-main-light); 
+} 
+
+.contenido-servicios-orden-index1:hover,
+.contenido-servicios-orden-index2:hover,
+.contenido-servicios-orden-index3:hover {
+    transform: scale(1.05);
 }
 
 .contenido-servicios-orden-index p {
@@ -490,7 +496,12 @@ main {
     background-color: var(--clr-main-light); 
    /* background-color: #4b33a8;*/
     border-radius: 20px;
-    margin: 10px;
+    margin: 10px; 
+    box-shadow: 0 3px 5px var(--clr-main-light); 
+} 
+
+.icons-index-card:hover {
+    transform: scale(1.05);
 }
 
 .icons-index-card img {
@@ -548,7 +559,7 @@ main {
      width: 100%; 
      margin: 0 auto; 
      /* background-color: #e2e2e2; */
-     background: url(./img-pinotea/niños-riendo5.jpeg);
+     background: url(./img-pinotea/galleria2.jpg);
      background-repeat: no-repeat;
      background-size: cover; 
      background-position: center; 
@@ -561,7 +572,7 @@ main {
  
  .servicios_section-text {
      width: 100%; 
-     background-color: #ffffff42;
+     background-color: #ffffff42; 
  }
  
  .servicios_section-text h1 {
@@ -571,7 +582,8 @@ main {
      font-weight: 100;
      line-height: 1; 
      font-weight: 500;
-     color: var(--clr-white);
+     color: rgb(34, 33, 33);
+    /* color: var(--clr-white); */
      /*  color: rgba(24, 23, 23, 0.849); */
  }
 
@@ -631,10 +643,11 @@ main {
     width: 300px;
     height: 350px; 
     border: 1px solid black;
+    box-shadow: 0 3px 5px #000;
 }
 
 .contenido-servicios-orden {
-    width: 280px;
+    width: 300px;
     height: 350px;
     border: 1px solid black;
     border-radius: 5px;
@@ -642,7 +655,15 @@ main {
     padding: 25px;
     /* background: white ;*/
     background: var(--clr-main-light); 
-    color: var(--clr-white);
+    color: var(--clr-white); 
+    box-shadow: 0 3px 5px var(--clr-main-light);
+} 
+
+.contenido-servicios-orden:hover,
+.contenedor1 img:hover,  
+.contenedor2 img:hover, 
+.contenedor3 img:hover {
+    transform: scale(1.05);
 }
 
 .contenido-servicios-orden p {
@@ -657,7 +678,7 @@ main {
      width: 100%; 
      margin: 0 auto; 
      /* background-color: #e2e2e2; */
-     background: url(./img-pinotea/niños-riendo5.jpeg);
+     background: url(./img-pinotea/galleria.jpg);
      background-repeat: no-repeat;
      background-size: cover; 
      background-position: center; 
@@ -680,7 +701,8 @@ main {
      font-weight: 100;
      line-height: 1; 
      font-weight: 500;
-     color: var(--clr-white);
+     color: rgb(34, 33, 33);
+     /* color: var(--clr-white); */
      /*  color: rgba(24, 23, 23, 0.849); */
  } 
 
@@ -730,7 +752,7 @@ main {
      height: 80vh; 
      width: 100%; 
      margin: 0 auto; 
-     background: url(./img-pinotea/niños-riendo5.jpeg);
+     background: url(./img-pinotea/niños-riendo6.jpeg);
      background-repeat: no-repeat;
      background-size: cover; 
      background-position: center; 
@@ -811,6 +833,12 @@ main {
     font-size: 20px;
     gap: 10px;
     font-weight: 600; 
+} 
+
+.contenido-contacto-orden-index1 .direccion:hover,
+.contenido-contacto-orden-index2 .email:hover,
+.contenido-contacto-orden-index3 .telefono:hover {
+    transform: scale(1.1);
 }
 
 
